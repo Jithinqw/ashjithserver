@@ -3,7 +3,6 @@ const app = require('express')(),
     compression = require("compression"),
     helmet = require("helmet");
 
-app.use(app.json());
 app.use(cors());
 app.options("*", cors());
 app.use(helmet());
