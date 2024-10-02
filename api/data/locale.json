@@ -1,8 +1,163 @@
 {
-  "key": "String",
-  "Number": 1,
-  "array": [1, 2, 3],
-  "nested": {
-    "literals": true
+  "payload": {
+    "productList": [
+      {
+        "id": "2234",
+        "propertyName": "Courtyard by Marriott Kochi Airport",
+        "address": "Vip Road Opposite Kochi International Airport, Nedumbassery, Kochi",
+        "propertyContact": "+91 484 669 3333",
+        "rating": 4.4,
+        "distance": 200,
+        "price": {
+          "price": "",
+          "unit": "USD"
+        },
+        "facilities": {}
+      },
+      {
+        "id": "22347",
+        "propertyName": "Presidency Airport Hotel",
+        "address": "Cochin International Airport, International Terminal, Circle, Nedumbassery, Kerala",
+        "propertyContact": "+91 88912 06437",
+        "rating": 4.7,
+        "distance": 200,
+        "price": {
+          "price": "",
+          "unit": "USD"
+        },
+        "facilities": {}
+      },
+      {
+        "id": "247",
+        "propertyName": "KTDC Grand Chaithram",
+        "address": "Railway Station Rd, Near Railway Station, Overbridge, Thampanoor, Thiruvananthapuram",
+        "propertyContact": "+91 471 233 0977",
+        "rating": 4.1,
+        "distance": 100,
+        "price": {
+          "price": "",
+          "unit": "USD"
+        },
+        "facilities": {}
+      },
+      {
+        "id": "2417",
+        "propertyName": "Hotel Venkateswara",
+        "address": "Aristo Rd, near New Theatre Road, Thampanoor, Thiruvananthapuram",
+        "propertyContact": "+91 471 232 3968",
+        "rating": 3.8,
+        "distance": 100,
+        "price": {
+          "price": "",
+          "unit": "USD"
+        },
+        "facilities": {}
+      },
+      {
+        "id": "23234",
+        "propertyName": "Amrit Regency",
+        "address": "Aramathumadam - Manappally Rd, Thodiyoor, Kerala 690523, India",
+        "propertyContact": "+91 80069 59999",
+        "rating": 4.2,
+        "distance": 10,
+        "price": {
+          "price": "",
+          "unit": "USD"
+        },
+        "facilities": {}
+      },
+      {
+        "id": "3412",
+        "propertyName": "Hotel Grand E Muscat",
+        "address": "KC Centre, Lalaji Junction, Karunagappalli, Kerala 690518, India",
+        "propertyContact": "+91 124 620 1164",
+        "rating": 3.7,
+        "distance": 0.5,
+        "price": {
+          "price": "",
+          "unit": "USD"
+        }
+      },
+      {
+        "id": "1234",
+        "propertyName": "Hotel Indraprastha",
+        "address": "National Highway 47, Near KSRTC BUS STAND, Karunagappalli, Kerala",
+        "propertyContact": "+91 476 265 0479",
+        "rating": 3.7,
+        "distance": 0.5,
+        "price": {
+          "price": "",
+          "unit": "USD"
+        }
+      },
+      {
+        "id": "2234",
+        "propertyName": "The Vijaya Hotel",
+        "address": "Karunagappalli, Kerala 690518, India",
+        "propertyContact": "+91 476 262 0418",
+        "rating": 3.8,
+        "distance": 0.5,
+        "price": {
+          "price": "",
+          "unit": "USD"
+        }
+      },
+      {
+        "id": "134",
+        "propertyName": "The Leela Kovalam, a Raviz Hotel",
+        "address": "Beach Rd, Kovalam, Thiruvananthapuram",
+        "propertyContact": "+91 471 669 1111",
+        "rating": 4.6,
+        "distance": 150,
+        "price": {
+          "price": "",
+          "unit": "USD"
+        }
+      },
+      {
+        "id": "13490",
+        "propertyName": "Hyatt Regency Trivandrum",
+        "address": "CV Raman Pillai Rd, DPI, Thycaud, Thiruvananthapuram,",
+        "propertyContact": "+91 471 258 1234",
+        "rating": 4.6,
+        "distance": 150,
+        "price": {
+          "price": "",
+          "unit": "USD"
+        }
+      },
+      {
+        "id": "13770",
+        "propertyName": "Gokulam Grand Turtle on the Beach",
+        "address": "TC 63, 512 TO 523, Beach Rd, Kovalam",
+        "propertyContact": "+91 95390 01475",
+        "rating": 4.4,
+        "distance": 150,
+        "price": {
+          "price": "",
+          "unit": "USD"
+        }
+      }
+    ],
+    "filters": [
+      {
+        "key": "airport",
+        "displayName": "Near Airport",
+        "ranking": 1,
+        "offerId": ["2234", "22347", "247", "2417"]
+      },
+      {
+        "key": "venue",
+        "displayName": "Near Venue",
+        "ranking": 2,
+        "offerId": ["23234", "3412", "1234", "2234"]
+      },
+      {
+        "key": "fivestar",
+        "displayName": "Five Star",
+        "ranking": 3,
+        "offerId": ["134", "13490", "13770"]
+      }
+    ]
   }
 }
