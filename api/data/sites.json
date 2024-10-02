@@ -2,36 +2,44 @@
   "payload": {
     "siteList": [
       {
-        "id": "33",
-        "siteName": "Munnar",
+        "id": "35",
+        "siteName": "Jatayu Earth's Center",
         "rating": 0,
-        "address": "Munnar, Kerala",
-        "description": "Munnar is a town and hill station located in the Idukki district of the southwestern Indian state of Kerala. Munnar is situated at around 1,600 metres above sea-level.",
-        "restriction": "Please wear Kerala Traditional attire to get entry into property"
-      },
-      {
-        "id": "34",
-        "siteName": "Kumarakom",
-        "rating": 0,
-        "address": "Kumarakom, Kottayam, Kerala",
-        "description": "Kumarakom is a tourism destination located near the city of Kottayam (10 kilometres (6 mi)), in Kerala, India, known for its backwater tourism.",
-        "restriction": "Please wear Kerala Traditional attire to get entry into property"
+        "address": "Jatayu Nature Park Road, Kollam 691534 India",
+        "description": "Jatayu Earths Center Incorporates all aspects of tourism, offering a complete God’s own Country experience to each one of you. Spread across 65 acres of land, Jatayu Earth's Center has elegant and mesmerizing elements that lures you for a visit!",
+        "restriction": ""
       },
       {
         "id": "36",
         "siteName": "RP Shopping Mall",
-        "rating": 4.6,
-        "address": "34/1000, Old NH 47, Edappally Junction, Nethaji Nagar, Edappally, Kochi, Ernakulam, Kerala 682024, India",
-        "description": "One of the largest shopping malls in Kerala.",
+        "rating": 4.1,
+        "address": "Chinnakada, Kollam, Kerala 691001, India",
+        "description": "One of the largest shopping malls in Kollam.",
         "restriction": ""
       },
       {
         "id": "38",
         "siteName": "Munroe Island",
         "rating": 0,
-        "address": "Kumarapuram, P O, Pallikkara, Kerala 683565, India",
-        "description": "One of the largest amusement parks in Kerala",
-        "restriction": "Please visit park website for entry fee, attire or potential park closures / maintaince."
+        "address": "Monroe Island, Ashtamudi, Kollam",
+        "description": "Munroe Island or Mundrothuruthu is an inland island group located at the confluence of Ashtamudi Lake and the Kallada River, in Kollam district, Kerala, South India.",
+        "restriction": ""
+      },
+      {
+        "id": "39",
+        "siteName": "Thangassery Light House",
+        "rating": 0,
+        "address": "Thangasserry Rd, Kollam 691007 India",
+        "description": "One of the landmark in Kollam.In operation since 1902, the cylindrical lighthouse tower painted with white and red oblique bands has a height of 41 metres (135 ft), making it the second tallest lighthouse in Kerala coast.",
+        "restriction": ""
+      },
+      {
+        "id": "40",
+        "siteName": "Palaruvi Falls",
+        "rating": 0,
+        "address": "Road to Palaruvi Waterfalls, Kollam 691309 India",
+        "description": "Palaruvi Falls is a waterfall located in Kollam district in the Indian state of Kerala. It is the 32nd highest waterfall in India.Palaruvi (literally stream of milk) falls from a height of 300 feet (91 m) and is situated at Aryankavu in the Kollam district of the south Indian state of Kerala.",
+        "restriction": ""
       }
     ]
   },
@@ -40,19 +48,19 @@
       "key": "temples",
       "displayName": "Temples",
       "ranking": 1,
-      "offerId": ["32"]
+      "offerId": ["35"]
     },
     {
-        "key": "shopping",
-        "displayName": "Shopping",
-        "ranking": 1,
-        "offerId": ["36"]
+      "key": "shopping",
+      "displayName": "Shopping",
+      "ranking": 2,
+      "offerId": ["36"]
     },
     {
-        "key": "destination",
-        "displayName": "Travel Destination",
-        "ranking": 1,
-        "offerId": ["33", "34", "35", "37"]
-      }
+      "key": "destination",
+      "displayName": "Travel Destination",
+      "ranking": 3,
+      "offerId": ["38", "39", "40"]
+    }
   ]
 }
