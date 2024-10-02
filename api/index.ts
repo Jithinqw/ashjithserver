@@ -11,8 +11,10 @@ app.use(helmet.xssFilter());
 app.use(helmet.noSniff());
 app.use(helmet.hidePoweredBy({setTo:"PHP 4.2.2"}));
 const config = require('./data/locale.json');
+const sites = require("./data/sites.json");
 
 app.get("/", (req, res) => res.json(config));
+app.get("/sites", (req, res) => res.json(sites));
 
 app.use(function(err, req, res, next) {
     return res.status(500).send({ error: err });

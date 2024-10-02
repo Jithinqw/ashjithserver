@@ -1,0 +1,58 @@
+{
+  "payload": {
+    "siteList": [
+      {
+        "id": "33",
+        "siteName": "Munnar",
+        "rating": 0,
+        "address": "Munnar, Kerala",
+        "description": "Munnar is a town and hill station located in the Idukki district of the southwestern Indian state of Kerala. Munnar is situated at around 1,600 metres above sea-level.",
+        "restriction": "Please wear Kerala Traditional attire to get entry into property"
+      },
+      {
+        "id": "34",
+        "siteName": "Kumarakom",
+        "rating": 0,
+        "address": "Kumarakom, Kottayam, Kerala",
+        "description": "Kumarakom is a tourism destination located near the city of Kottayam (10 kilometres (6 mi)), in Kerala, India, known for its backwater tourism.",
+        "restriction": "Please wear Kerala Traditional attire to get entry into property"
+      },
+      {
+        "id": "36",
+        "siteName": "RP Shopping Mall",
+        "rating": 4.6,
+        "address": "34/1000, Old NH 47, Edappally Junction, Nethaji Nagar, Edappally, Kochi, Ernakulam, Kerala 682024, India",
+        "description": "One of the largest shopping malls in Kerala.",
+        "restriction": ""
+      },
+      {
+        "id": "38",
+        "siteName": "Munroe Island",
+        "rating": 0,
+        "address": "Kumarapuram, P O, Pallikkara, Kerala 683565, India",
+        "description": "One of the largest amusement parks in Kerala",
+        "restriction": "Please visit park website for entry fee, attire or potential park closures / maintaince."
+      }
+    ]
+  },
+  "filters": [
+    {
+      "key": "temples",
+      "displayName": "Temples",
+      "ranking": 1,
+      "offerId": ["32"]
+    },
+    {
+        "key": "shopping",
+        "displayName": "Shopping",
+        "ranking": 1,
+        "offerId": ["36"]
+    },
+    {
+        "key": "destination",
+        "displayName": "Travel Destination",
+        "ranking": 1,
+        "offerId": ["33", "34", "35", "37"]
+      }
+  ]
+}
