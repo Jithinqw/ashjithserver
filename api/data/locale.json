@@ -12,7 +12,9 @@
           "price": "",
           "unit": "USD"
         },
-        "facilities": {}
+        "amenities": [
+            "Pool", "Free Wifi", "Free Parking", "Air Conditioning", "Fitness center"
+        ]
       },
       {
         "id": "22347",
@@ -25,7 +27,7 @@
           "price": "",
           "unit": "USD"
         },
-        "facilities": {}
+        "amenities": ["Pool", "Air Conditioning", "Free Wifi", "Air Conditioning"]
       },
       {
         "id": "247",
@@ -38,7 +40,7 @@
           "price": "",
           "unit": "USD"
         },
-        "facilities": {}
+        "amenities": ["Free Breakfast", "Free Parking", "Air Conditioning", "Wifi"]
       },
       {
         "id": "2417",
@@ -51,7 +53,7 @@
           "price": "",
           "unit": "USD"
         },
-        "facilities": {}
+        "amenities": ["Free Breakfast", "Free Wifi", "Air Conditioning", "Free Parking"]
       },
       {
         "id": "23234",
@@ -64,7 +66,7 @@
           "price": "",
           "unit": "USD"
         },
-        "facilities": {}
+        "amenities": ["Pool", "Free Parking", "Free Wifi", "Air Conditioning"]
       },
       {
         "id": "3412",
@@ -76,7 +78,8 @@
         "price": {
           "price": "",
           "unit": "USD"
-        }
+        },
+        "amenities": ["Free Breakfast", "Free Parking", "Free Wifi", "Air Conditioning"]
       },
       {
         "id": "1234",
@@ -88,7 +91,8 @@
         "price": {
           "price": "",
           "unit": "USD"
-        }
+        },
+        "amenities": ["Restaurant", "Free Wifi", "Air Conditioning"]
       },
       {
         "id": "2234",
@@ -100,7 +104,8 @@
         "price": {
           "price": "",
           "unit": "USD"
-        }
+        },
+        "amenities": ["Pool", "Free Wifi", "Air Conditioning"]
       },
       {
         "id": "134",
@@ -112,7 +117,8 @@
         "price": {
           "price": "",
           "unit": "USD"
-        }
+        },
+        "amenities": ["Pool", "Spa", "Beach Front", "Free Wifi"]
       },
       {
         "id": "13490",
@@ -124,7 +130,8 @@
         "price": {
           "price": "",
           "unit": "USD"
-        }
+        },
+        "amenities": ["Pool", "Spa", "Breakfast", "Free Wifi"]
       },
       {
         "id": "13770",
@@ -136,7 +143,8 @@
         "price": {
           "price": "",
           "unit": "USD"
-        }
+        },
+        "amenities": ["Pool", "Spa", "Free Breakfast", "Free Wifi", "Beach Front"]
       }
     ],
     "filters": [
